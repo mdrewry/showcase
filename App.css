@@ -1,24 +1,56 @@
+/*main page*/
 .App {
-  background-color: #f1e4e8;
-  min-height: 100vh;
+  background-color: #FFFFFF;
+  height: 100%;
+  width:  100%;
+  position: absolute;
+}
+.AboutMe{
+  background-color: #FFFFFF;
+  height: 100%;
+  width:  100%;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+}
+.Projects{
+  background-color: #FFFFFF;
+  height: 100%;
+  width:  100%;
+  position: absolute;
+  text-align: center;
+  align-items: center;
 }
 
+/*TopMenu*/
+.menuButtons {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  width: 200px;
+  justify-content: space-around;
+  background-color: rgb(247, 202, 202);
+  top: 0;
+  z-index: 10;
+}
+
+
 /*profileImage*/
-.backgroundProfileImage {
+.profileImageBackground {
+  margin-top: 30px;
   background-color: #2479e7;
   height: 200px;
   width: 200px;
   border-radius: 100px;
   justify-content: center;
   align-items: center;
-  display: flex; 
+  display: inline-block;
 }
-/*socials*/
 
+/*socials*/
 .socials {
   float: left;
 }
-
 .git {
   height: 50px;
 }

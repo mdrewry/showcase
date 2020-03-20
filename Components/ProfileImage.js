@@ -13,14 +13,12 @@ const useStyles = makeStyles(styles);
 const ProfileImage = () => {
   const classes = useStyles();
   return (
-    <div>
-      <div className="backgroundProfileImage">
-        <Avatar
-          className={classes.root}
-          alt="Mark Drewry"
-          src={profileImage}
-        ></Avatar>
-      </div>
+    <div className="profileImageBackground">
+      <Avatar
+        className={classes.root}
+        alt="Mark Drewry"
+        src={profileImage}
+      ></Avatar>
     </div>
   );
 };
